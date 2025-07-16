@@ -36,7 +36,7 @@ app = FastAPI(
 )
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # React's dev server
+    allow_origins=["https://stock-market-alpha-six.vercel.app"],  # React's dev server
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
